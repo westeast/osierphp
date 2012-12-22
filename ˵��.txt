@@ -1,11 +1,11 @@
 代码库：
 
 php代码相关
-php  php的基础功能，固定的业务流程
+	php  php的基础功能，固定的业务流程
 
 
 
 
 ui相关
-UI  
-html (html css javascript  网页中的小部件，可重复利用的小部件)
+	UI  
+		html (html css javascript  网页中的小部件，可重复利用的小部件)
