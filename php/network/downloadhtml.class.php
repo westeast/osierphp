@@ -3,6 +3,8 @@
 /**
  * 下载html静态html
  * @author Administrator
+ * todo 1,日志记录功能下载失败的放在一个log文件中，而且是不断追加。
+ * 2,像cisco这种相对链接的网站下载还有些问题
  *
  */
 const  	DS = '/';
@@ -14,12 +16,9 @@ class downloadhtml{
 	public $base_url ;
 	private $base_dir ;
 	
-	
 	private $js_dir = 'js';
 	private $css_dir = 'css';
 	private $image_dir = 'image';
-	
-	
 
 	/**
 	 * 
