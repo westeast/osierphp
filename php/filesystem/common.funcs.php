@@ -26,12 +26,12 @@
 /**
  * 
  * @param unknown_type $degubinfo
- * @param String $basedir   
+ * @param String $basedir 项目所在的目录 
  * @param unknown_type $clear
  * @throws Exception
  * @todo 1,$basedir 
  */
- function dong($degubinfo,$basedir='',$clear=false){
+ function dong($debuginfo,$basedir='',$clear=false){
 	 $mod = $clear ? 'wb+':'a+';
 	 $path = dirname(__FILE__);
 	 if($basedir != ''){
